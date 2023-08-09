@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title> Café DIC</title>
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/contacto.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="sub_header">
+            <nav class="header_nav">
+                <a href="index.html"><img src="imagenes/sample_logo_k.png" class="logo"></a>
+                <!--Navegacion global-->
+                <ul class="global_nav">
+                    <a href="index.html" class="global_nav_item">
+                        <li>Hogar</li>
+                    </a>
+                    <a href="#" class="global_nav_item">
+                        <li>Menú</li>
+                    </a>
+                    <a href="contacto.html" class="global_nav_item">
+                        <li>Contacto</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <section class="section_inner">
+            <div class="section_title">
+                <h1> CONTACTO</h1>
+                <p>Contáctenos</p>
+            </div>
+            <form action="#" method="POST">
+                <table class="contact">
+                    <tr class="contact_line" >
+                        <td class="contact_sign"><label for="name">Nombre</label></td>
+                        <td class="contact_input"><input type="text" name="name" id="name"></td>
+                    </tr>
+                    <tr class="contact_line">
+                        <td class="contact_sign"><label for="num_celular">Celudar</label></td>
+                        <td class="contact_input"><input type="tel" name="num_celular" id="num_celular"></td>
+                    </tr>
+                    <tr class="contact_line">
+                        <td class="contact_sign"><label for="region">Dirección</label></td>
+                        <td>
+                            <select id="region">
+                                <option value="0">Seleccione</option>
+                                <option value="1">Hokkaido</option>
+                                <option value="2">Tohoku</option>
+                                <option value="3">Kanto</option>
+                                <option value="4">Medio</option>
+                                <option value="5">Kinki</option>
+                                <option value="6">Chugoku/Shikoku</option>
+                                <option value="7">Kyushu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="contact_content">
+                        <td class="contact_sign"><label for="content">Contenido</label></td>
+                        <td class="contact_input"><textarea name="content" id="content"></textarea></td>
+                    </tr>
+                </table>
+                <div>
+                    <button type="reset" class="contact_btn reset_btn">Borrar</button>
+                    <button type="submit" class="contact_btn submit_btn">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <footer class="footer">
+            <nav>
+                <!-- Navegacion -->
+                <ul class="footer_nav">
+                    <a href="index.html" class="footer_nav_item">
+                        <li>Hogar</li>
+                    </a>
+                    <a href="#" class="footer_nav_item">
+                        <li>Menu</li>
+                    </a>
+                    <a href="contacto.html" class="footer_nav_item">
+                        <li>Contacto</li>
+                    </a>
+                    <a href="index.html" class="footer_nav_item" >
+                        <li>
+                            <img src="imagenes/sample_logo_w.png" class="footer_logo">
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+            <p class="footer_right">&copy; DIVIC Corp. ALL RIGHTS RESERVED.</p>
+          </footer>
+    </body>
+</html>
